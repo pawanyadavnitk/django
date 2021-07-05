@@ -16,15 +16,26 @@ python manage.py migrate
 python manage.py runserver
 ```
 ## Apps in the project
-### 1. newyear
+### 1. tasks
+Create a todo list using this app
+```
+Usage:
+Go to '/tasks/' url and you can view and add tasks.
+```
+Features used:
+- sessions
+- template inheritance
+- django-forms
+- static files
+### 2. newyear
 Displays whether today is New Year or not.
 ```
-urls:
-/newyear/: displays YES if it is New Year else NO
+Usage:
+Go to url '/newyear/' and it will display YES if it is New Year else NO
 ```
 Features used:
 - static files
-### 2. hello
+### 3. hello
 Greets hello to the user
 ```
 urls:
