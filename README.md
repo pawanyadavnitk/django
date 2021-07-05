@@ -1,4 +1,4 @@
-# Django_projects
+# Django Project
 This project contains some simple apps built using django web framework.
 
 ## Installation
@@ -15,3 +15,13 @@ Use the following commands to runs the project, then follow the instructions/url
 python manage.py migrate
 python manage.py runserver
 ```
+## Apps in the project
+### 1. hello
+Greets hello to the user
+```
+urls:
+/hello/: displays "Hello, world!"
+/hello/username : displays "Hello, Username!"
+```
+Features used
+- flexible url
