@@ -16,12 +16,20 @@ python manage.py migrate
 python manage.py runserver
 ```
 ## Apps in the project
-### 1. hello
+### 1. newyear
+Displays whether today is New Year or not.
+```
+urls:
+/newyear/: displays YES if it is New Year else NO
+```
+Features used:
+- static files
+### 2. hello
 Greets hello to the user
 ```
 urls:
 /hello/: displays "Hello, world!"
 /hello/username : displays "Hello, Username!"
 ```
-Features used
+Features used:
 - flexible url
